@@ -73,8 +73,10 @@
     body{
         main{
             .section3{
-                
                 .box{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                     flex-wrap: wrap;
                     .box1{
                         svg{
@@ -108,26 +110,31 @@
     body{
         main{
             .section3{
-                flex-wrap: wrap;
-                .box1{
-                    svg{
-                        width: 20%;
-                        height: 20%;
-                        padding-bottom: 12px;
+                .box{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .box1{
+                        svg{
+                            width: 20%;
+                            height: 20%;
+                            padding-bottom: 12px;
+                        }
                     }
-                }
-                .box2{
-                    svg{
-                        width: 20%;
-                        height: 20%;
-                        padding-bottom: 12px;
+                    .box2{
+                        svg{
+                            width: 20%;
+                            height: 20%;
+                            padding-bottom: 12px;
+                        }
                     }
-                }
-                .box3{
-                    svg{
-                        width: 20%;
-                        height: 20%;
-                        padding-bottom: 12px;
+                    .box3{
+                        svg{
+                            width: 20%;
+                            height: 20%;
+                            padding-bottom: 12px;
+                        }
                     }
                 }
             }

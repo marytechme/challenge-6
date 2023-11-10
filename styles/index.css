@@ -308,6 +308,9 @@
 
 @media screen and (max-width: 1000px) {
   body main .section3 .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
   }
   body main .section3 .box .box1 svg {
@@ -327,20 +330,23 @@
   }
 }
 @media screen and (max-width: 700px) {
-  body main .section3 {
+  body main .section3 .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
   }
-  body main .section3 .box1 svg {
+  body main .section3 .box .box1 svg {
     width: 20%;
     height: 20%;
     padding-bottom: 12px;
   }
-  body main .section3 .box2 svg {
+  body main .section3 .box .box2 svg {
     width: 20%;
     height: 20%;
     padding-bottom: 12px;
   }
-  body main .section3 .box3 svg {
+  body main .section3 .box .box3 svg {
     width: 20%;
     height: 20%;
     padding-bottom: 12px;
