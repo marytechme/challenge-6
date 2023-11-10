@@ -16,5 +16,24 @@
   color: white;
   font-size: 30px;
 }
+* body main nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+* body main nav .menu li {
+  list-style: none;
+}
+* body main nav .menu li a {
+  text-decoration: none;
+  color: white;
+}
+* body main nav .menu li a:hover {
+  color: black;
+}
+* body main nav .button button {
+  padding: 10px 20px;
+}
 
 /*# sourceMappingURL=index.css.map */
