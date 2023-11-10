@@ -1,3 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 2 | @import "/styles/component/index1";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   styles\index.scss 2:9  root stylesheet */
 
-/*# sourceMappingURL=index.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"/styles/component/index1\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   styles\\index.scss 2:9  root stylesheet";
+}
