@@ -10,4 +10,11 @@
   justify-content: space-between;
   align-items: center;
   background-color: brown;
-}/*# sourceMappingURL=index.css.map */
+  padding: 10px 20px;
+}
+* body main nav h1 {
+  color: white;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=index.css.map */
