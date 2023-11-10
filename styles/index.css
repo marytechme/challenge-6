@@ -5,5 +5,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-/*# sourceMappingURL=index.css.map */
+* body main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+}/*# sourceMappingURL=index.css.map */
