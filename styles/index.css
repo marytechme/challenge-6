@@ -5,15 +5,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+* body {
+  background-color: rgb(201, 201, 201);
+}
 * body main nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: brown;
+  background-color: rgb(201, 201, 201);
   padding: 10px 20px;
+  border-bottom: 2px solid black;
+  width: 96%;
+  margin: 0 auto;
 }
 * body main nav h1 {
-  color: white;
+  color: black;
   font-size: 30px;
 }
 * body main nav .menu {
@@ -27,13 +33,64 @@
 }
 * body main nav .menu li a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 * body main nav .menu li a:hover {
-  color: black;
+  color: white;
 }
 * body main nav .button button {
   padding: 10px 20px;
+  border: none;
+}
+* body main nav svg {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  body main nav h1 {
+    font-size: 27px;
+  }
+  body main nav .menu {
+    gap: 10px;
+  }
+  body main nav .menu li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body main nav h1 {
+    font-size: 25px;
+  }
+  body main nav .menu {
+    display: none;
+  }
+  body main nav .button {
+    margin: 0 auto;
+  }
+  body main nav .button button {
+    padding: 10px 30px;
+    border: none;
+  }
+  body main nav svg {
+    display: flex;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  body main nav h1 {
+    font-size: 25px;
+  }
+  body main nav .button {
+    display: none;
+  }
+  body main nav svg {
+    display: flex;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
