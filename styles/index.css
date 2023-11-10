@@ -337,9 +337,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-  body main .section3 .box .box1 {
-    width: 300px;
-  }
   body main .section3 .box .box1 svg {
     width: 30%;
     height: 20%;
