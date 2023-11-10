@@ -73,63 +73,61 @@
     body{
         main{
             .section3{
-                padding: 20px 40px;
-                .h1{
-                   text-align: center;
-                   padding-top: 20px;
-                   padding-bottom: 20px;
-                }
+                
                 .box{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                    flex-wrap: wrap;
+                    .box1{
+                        svg{
+                            width: 20%;
+                            height: 20%;
+                            padding-bottom: 12px;
+                        }
+                    }
+                    .box2{
+                        svg{
+                            width: 20%;
+                            height: 20%;
+                            padding-bottom: 12px;
+                        }
+                    }
+                    .box3{
+                        svg{
+                            width: 20%;
+                            height: 20%;
+                            padding-bottom: 12px;
+                        }
+                    }
                 }
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        main{
+            .section3{
+                flex-wrap: wrap;
                 .box1{
-                    width: 30%;
-                    background-color: white;
-                    padding: 20px 30px;
                     svg{
-                        width: 13%;
-                        padding-bottom: 17px;
-                    }
-                    h1{
-                        text-transform: uppercase;
-                        font-size: 19px;
-                    }
-                    p{
-                        font-size: 15px;
+                        width: 20%;
+                        height: 20%;
+                        padding-bottom: 12px;
                     }
                 }
                 .box2{
-                    width: 30%;
-                    background-color: white;
-                    padding: 20px 30px;
                     svg{
-                        width: 13%;
-                        padding-bottom: 17px;
-                    }
-                    h1{
-                        text-transform: uppercase;
-                        font-size: 19px;
-                    }
-                    p{
-                        font-size: 15px;
+                        width: 20%;
+                        height: 20%;
+                        padding-bottom: 12px;
                     }
                 }
                 .box3{
-                width: 30%;
-                    background-color: white;
-                    padding: 20px 30px;
                     svg{
-                        width: 13%;
-                        padding-bottom: 17px;
-                    }
-                    h1{
-                        text-transform: uppercase;
-                        font-size: 19px;
-                    }
-                    p{
-                        font-size: 15px;
+                        width: 20%;
+                        height: 20%;
+                        padding-bottom: 12px;
                     }
                 }
             }
