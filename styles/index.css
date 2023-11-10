@@ -254,12 +254,12 @@
 }
 * body main .section3 .box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  max-width: 100%;
+  gap: 20px;
 }
 * body main .section3 .box1 {
-  width: 30%;
+  width: 390px;
   background-color: white;
   padding: 20px 30px;
 }
@@ -275,7 +275,7 @@
   font-size: 15px;
 }
 * body main .section3 .box2 {
-  width: 30%;
+  width: 390px;
   background-color: white;
   padding: 20px 30px;
 }
@@ -291,7 +291,7 @@
   font-size: 15px;
 }
 * body main .section3 .box3 {
-  width: 30%;
+  width: 390px;
   background-color: white;
   padding: 20px 30px;
 }
@@ -336,6 +336,9 @@
   body main .section3 .box {
     display: flex;
     flex-wrap: wrap;
+  }
+  body main .section3 .box .box1 {
+    width: 300px;
   }
   body main .section3 .box .box1 svg {
     width: 30%;
