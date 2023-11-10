@@ -97,5 +97,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+* body main .section1 {
+  background-color: white;
+}
 
 /*# sourceMappingURL=index.css.map */
